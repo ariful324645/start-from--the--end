@@ -45,8 +45,10 @@
       border-radius: 10px;
       padding:15px 30px;
     }
-    .header{
+    .header{display: ;
       background-color:beige;
+      /* backface-visibility: visible; */
+      
     }
     .baner{
       background-color: beige;
@@ -66,6 +68,7 @@
       font-weight: 700px;
       border-radius: 10px;
       padding:15px 30px;
+   
     }
     .About{
       font-size: xx-large;
@@ -138,6 +141,63 @@ div>p{
    display:flex;
    gap:80px;
 }
+.button1{
+   /* background-color: coral; */
+      color:white;
+      font-size: 40px;
+      font-weight: 700px;
+      border-radius: 10px;
+      padding:15px 30px;
+      
+text-align: center;
+}
+.button2{
+   color:white;
+      font-size: 30px;
+      font-weight: 400px;
+   
+      padding:10px 20px;
+}
+.Bangladesh, .pakistan{
+   margin:100px;
+   display:inline-flex;
+   
+   justify-content:space-between;
+   
+   gap:80px;
+
+
+}
+.footer1{
+   background-color:bisque;
+   padding:50px 40px;
+}
+div >li{
+   display: inline;
+   margin:20px;
+   text-decoration: none;
+   list-style: none;
+   
+}
+input,textarea{
+   padding:20px 48px;
+   border:0px;
+   background:#fff;
+}
+.submit{
+   background:#fff;
+   /* size:10px; */
+}
+.button4{
+ color:#fff;
+ background-color: coral;
+ font-size: xx-large;
+ font-weight: 800px;
+}
+
+
+
+
         </style>
        </head>
        <body>
@@ -276,5 +336,42 @@ div>p{
        </div>
        </section>
         </section>
+        <div class="button1">
+         <button>Download</button>
+        </div>
+        <footer class="footer1">
+         <section class="Bangladesh">
+            <div class="connect">
+               <h3>lets connect</h3>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus similique quis dolorum iusto consectetur, eos explicabo sed nam dolore praesentium.</p>
+               <div class="img"> <ul>
+                 <div>
+                  <li><img src="images/icons/facebook.png" alt=""></li>
+                  <li><img src="images/icons/insta.png" alt=""></li>
+                  <li><img src="images/icons/twitter.png" alt=""></li>
+                 </div>
+                  </ul>
+               </div>
+            </div>
+            </section>
+            <section class="pakistan">
+            <div class="connect">
+               <h3>lets message me</h3>
+               <form class="form">
+               <input type="text"   name="nm" id="Nm"  placeholder="Your name">
+               <br> <br>
+               <input type="email" name="email" id="email" placeholder="Your email">
+               <br> <br>
+      <textarea name="message" rows="5px" cols="20px" placeholder="message" id=""></textarea>
+      <br>
+      <button class="Arif">
+      <button class="button4">submit</button>
+   
+      </section>
+               </form>
+            </div>
+         </section>
+        </footer>
+        
        </body>
        </html>
