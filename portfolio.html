@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>My portfolio website</title>
-    
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
         <style>
      nav{
         display:flex;
@@ -45,7 +45,7 @@
       border-radius: 10px;
       padding:15px 30px;
     }
-    .header{display: ;
+    .header{
       background-color:beige;
       /* backface-visibility: visible; */
       
@@ -56,9 +56,9 @@
       display:flex;
       /* justify-content: space-between; */
       align-items: center;
-      background-image: url(images/header_bg.png);
+      background-image: url(images/header_bg.png) ,url(images/developer.png);
       background-repeat: no-repeat;
-      background-position: bottom right;
+      background-position: bottom right,bottom left;
       justify-content: space-between;
     }
     div>button{
@@ -169,7 +169,8 @@ text-align: center;
 
 }
 .footer1{ 
-   display:flex;
+   /* display:flex; */
+   /* font-size:large; */
    background-color:bisque;
    padding:50px 40px;
 }
@@ -199,8 +200,8 @@ input,textarea{
 
 
 
-
         </style>
+       
        </head>
        <body>
         <header class="header">
@@ -218,8 +219,8 @@ input,textarea{
             <h3>Hi,I am</h3>
             <h1>Mary hardy</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi soluta saepe ab nam consectetur.</p>
-            <button>Downloas cv</button>
-            <button>Contact</button>
+            <button>  <i class="fa-solid fa-download"></i> Download</button>
+            <button><i class="fa-solid fa-phone"></i>  Contact</button>
          </div>
          <img src="images/hardy.png" height="540px"  alt="">
         </div>
@@ -339,7 +340,7 @@ input,textarea{
        </section>
         </section>
         <div class="button1">
-         <button>Download</button>
+         <button> <i class="fa-sharp fa-solid fa-circle-down"></i>   Download</button>
         </div>
         <footer class="footer1">
          <section class="Bangladesh">
@@ -364,7 +365,7 @@ input,textarea{
                <br> <br>
                <input type="email" name="email" id="email" placeholder="Your email">
                <br> <br>
-      <textarea name="message" rows="5px" cols="20px" placeholder="message" id=""></textarea>
+      <textarea name="message" rows="10px" cols="30px" placeholder="message" id=""></textarea>
       <br>
       <button class="Arif">
       <button class="button4">submit</button>
