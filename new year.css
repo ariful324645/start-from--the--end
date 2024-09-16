@@ -1,0 +1,151 @@
+.container{
+    height: 900px;
+    
+    
+/* margin:40px auto; */
+    /* background-color: blue; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-image: url(images1/banner/banner1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.contain-one{
+    height: 600px;
+    width: 500px;
+    /* background-color: brown; */
+}
+.contain-two{
+    height: 600px;
+    width: 500px;
+    /* background-color: aqua; */
+
+}
+.button{
+    display:flex;
+    justify-content: right;
+}
+.button1{
+    color:white;
+    background: coral;
+    padding:15px 30px;
+    font-weight: 900px;
+    border:0px;
+    }
+
+
+
+    .banar{
+        height: 800px;
+        width: 1680px;
+        
+        display:flex;
+        align-items: center;
+        justify-content:center;
+        gap: 70px;
+    }
+    .banar-one{
+        height: 300px;
+        width:300px;
+        background-color:bisque;
+        border-radius: 200px;
+        padding-bottom:75px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    
+    .banar-two{
+        height: 400px;
+        width: 500px;
+        
+    }
+  .main>h1{
+        text-align: center;
+        color:white;
+    }
+    .main{
+        margin:40px;
+    }
+    .picture{
+        display:flex;
+        align-items: center;
+        justify-content: space-evenly;
+    
+    }
+
+
+
+
+
+
+
+    .watch{
+margin:40px auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 300px;
+        width: 1200px;
+    
+        background-image: url(images1/watch.png);
+        background-repeat: no-repeat;
+    
+    }
+    .watch-one{
+        margin: 20px;
+        height: 200px;
+        width: 250px;
+        
+        display:block;
+        align-items: center;
+        justify-content: center;
+    }
+    .watch-two{
+        height: 200px;
+        width: 300px;
+        
+    }
+    .button10{
+        color:red;
+        font-size: xx-large;
+        background-color: white;
+        padding:15px 30px;
+        border:0px;
+    }
+
+
+
+
+    .footer{
+        
+         height: 600px;
+        background-color:black;
+        display:flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .contain-three{
+        margin: 20px;
+        height: 300px;
+        width: 400px;
+        /* background-color: aqua; */
+        color:white;
+    }
+    .contain-four{
+        margin: 20px;
+        height: 300px;
+        width: 400px;
+        color:white;
+        font-size: x-large;
+        /* background-color: aqua; */
+    }
+    .img20{
+        display:flex;
+        align-items: center;
+    justify-content: space-evenly;
+    }
+    input{
+        padding:20px 30px;
+        color:white;
+    }
