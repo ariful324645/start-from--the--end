@@ -62,3 +62,39 @@ justify-content: center;
         padding:20px;
      }
 }
+
+main{
+    height: 1440px;
+    margin: 0px auto;
+}
+.container{
+    display:flex;
+    align-items: center;
+    padding:40px 50px;
+    gap:76px;
+}
+
+.container-img{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.h1-content .quick{
+    font-size: xx-large;
+    color: darkslateblue;
+}
+.h1-content .of our{
+    font-size: xx-large;
+    color:black;
+}
+.h1-content .features{
+    font-size: xx-large;
+    color:darkorange;
+}
+@media screen and (max-width:576px)  {
+    .container{
+        flex-direction: column;
+    }
+    .container-img{
+        grid-template-columns: repeat(1,1fr);
+    }
+}
