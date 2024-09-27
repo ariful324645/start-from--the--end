@@ -103,21 +103,22 @@ gap:10px;
 @media screen and (max-width:576px)  {
     .container{
         flex-direction: column;
-        flex-wrap: wrap;
+        
+        align-items: center;
+        justify-content: center;
     }
     .container-img{
         grid-template-columns: repeat(1,1fr);
     }
-
-    
-
 }
 .facts{
-    margin-top: 30px;
+    margin:20px;
 }
+
 .some facts{
     display: flex;
     font-size: xx-large;
+
 }
 .facts-container{
     display:flex;
@@ -135,10 +136,76 @@ gap:10px;
  margin:0px auto;
 }
   @media screen  and (max-width:576px) {
-    .some facts,.facts-container{
+ .some facts,.facts-container{
         flex-direction: column;
     }
+    
     .facts-container{
         gap:40px;
     }
+  }
+
+
+
+  .our,.lorem{
+    text-align: center;
+  }
+  .icon-contain{
+    display:flex;
+    justify-content: space-evenly;
+    margin-top: 60px;
+  }
+  .icon-contain img{
+    width:70px;
+    
+  }
+  .text-content{
+    background-color: antiquewhite;
+    padding:10px 40px;
+    text-align: center;
+    margin:60px;
+  }
+  @media screen  and (max-width:576px){
+    .icon-contain{
+        flex-direction: column;
+        gap:40px;
+        align-items: center;
+    }
+  }
+.feature-container{
+    margin-bottom: 50px;
+}
+  .feature{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    
+    margin:80px;
+    gap:70px;
+  }
+  .paragraph-gap{
+    gap:80px;
+    
+  }
+  .features-pic img{
+height: 90%;
+width:100%;
+  }
+  .year{
+    background-color: chocolate;
+    color:white;
+    width:40%;
+    hieght:30%;
+    padding:20px;
+    text-align: center;
+    align-items: center;
+    position: relative;
+    bottom: 90px;
+  }
+  @media screen and (max-width:576px) {
+.feature{
+    flex-direction: column;
+    
+
+}
   }
