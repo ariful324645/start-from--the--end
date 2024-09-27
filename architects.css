@@ -1,5 +1,5 @@
 .header1{
-    padding:40px 200px;
+    padding:50px 200px;
     font-family: 'work sans' sans-serif;
     display:flex;
     flex-wrap: wrap;
@@ -70,13 +70,23 @@ main{
 .container{
     display:flex;
     align-items: center;
-    padding:40px 50px;
+    justify-content: center;
+    padding:30px 50px;
     gap:76px;
+}
+.container-img img{
+    display:block;
+    margin:auto;
+height: 400px;
+width:80%;
+align-items: center;
+justify-content: center;
 }
 
 .container-img{
     display:grid;
     grid-template-columns: repeat(2,1fr);
+gap:10px;
 }
 .h1-content .quick{
     font-size: xx-large;
@@ -93,8 +103,42 @@ main{
 @media screen and (max-width:576px)  {
     .container{
         flex-direction: column;
+        flex-wrap: wrap;
     }
     .container-img{
         grid-template-columns: repeat(1,1fr);
     }
+
+    
+
 }
+.facts{
+    margin-top: 30px;
+}
+.some facts{
+    display: flex;
+    font-size: xx-large;
+}
+.facts-container{
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.card{
+    border-radius: 5px;
+    border:1px solid red;
+    padding:40px 50px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+ margin:0px auto;
+}
+  @media screen  and (max-width:576px) {
+    .some facts,.facts-container{
+        flex-direction: column;
+    }
+    .facts-container{
+        gap:40px;
+    }
+  }
